@@ -13,36 +13,65 @@
 	top: 0px;
 	}
 
-#maincopy {
-	width: 550px;
-	position: absolute;
-    left: 450px;
-    top: 150px;
-    right: 1000px;
-    }
-
 h1 {
 	font-family: GillSans-SemiBold;
-	font-size: 40pt;
+	font-size: 70px;
 	color: #00746b;
+	position: absolute;
+	left: 250px;
+    top: 120px;
 	}
-	
-a {
+
+#maincopy {
+	width: 500px;
+	position: absolute;
+    left: 450px;
+    top: 250px;
+    }
+
+a, li {
 	font-family: GillSans;
-	font-size: 10pt;
+	font-size: 15px;
 	color: #00a99d;
 	text-decoration: none;
-}
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	font-family: GillSans;
+	}
+
+h1 span {
+	font-family: GillSans-Light;
+	}
+
+ul {
+	width:480px;
+	height:60px;
+	margin:0;
+	}
+
+li {
+	background: url(images/topnav-greenline.png) no-repeat;
+	padding:12px 0 0 0;
+    list-style:none;
+	}
+
+#titletext {
+	font-family: GillSans-Light;
+	font-size: 35px;
+	color: #00746b;
+	}
 
 #italsubhead {
 	font-family: GillSans-SemiBoldItalic;
-	font-size: 20pt;
+	font-size: 35px;
 	color: #1cbbb4;
 	}
 	
 #italcopy {
 	font-family: GillSans-Lightitalic;
-	font-size: 20pt;
+	font-size: 35px;
 	color: #505050;
 	}
 
@@ -50,25 +79,24 @@ a {
 	position: absolute;
 	}
 	
-	
 .btn-text {
 	font-family: GillSans;
-	font-size: 20pt;
+	font-size: 30px;
 	color: #ffffff;
 	text-align: left;
 	position: absolute;
-	top: 0px;
+	top: -5px;
 	padding: 0px 0px 0px 20px;
 	}
 	
 .btn-tealbox {
-	width: 200px;
+	width: 250px;
 	height: 80px;
 	background: #1cbbb4;
 	}
 	
 .btn-greenline {
-	width: 200px;
+	width: 250px;
 	height: 10px;
 	position: absolute;
 	margin: 5px 0px 0px 0px;
@@ -77,10 +105,10 @@ a {
 	
 .arrow {
 	position: absolute;
-    left: 150px;
-    top: 28px;
-	width: 15px;
-	height: 25px;
+    left: 180px;
+    top: 30px;
+    width: 15px;
+    height: 25px;
 	padding: 0px 0px 0px 20px;
 	}
 
@@ -91,47 +119,34 @@ a {
     text-align: center;
     }
     
-#topnav-greenline1 {
-	width: 100px;
-	height: 6px;
-	background: #abeb54;
-	position: absolute;
-    left: 0px;
-    top: 0px;
-	}
-	
-#topnav-greenline2 {
-	width: 100px;
-	height: 6px;
-	background: #abeb54;
-	position: absolute;
-    left: 150px;
-    top: 0px;
-	}
-	
-#topnav-greenline3 {
-	width: 100px;
-	height: 6px;
-	background: #abeb54;
-	position: absolute;
-    left: 300px;
-    top: 0px;
-	}
-	
-#topnav-greenline4 {
-	width: 100px;
-	height: 6px;
-	background: #abeb54;
-	position: absolute;
-    left: 450px;
-    top: 0px;
-	}
-
 .topnavtitle {
 	margin: 50, 0, 0, 0;
 	}
-    
+	
 #topnav ul {
 	list-style-type: none;
+	height:60px;
  	}
- 	
+    
+#topnav-greenline1, #topnav-greenline2, #topnav-greenline3, #topnav-greenline4 {
+	width: 100px;
+	height: 60px;
+	position: absolute;
+    top: 0px;
+	}
+	
+#topnav-greenline1 {
+    left: 0px;
+	}
+	
+#topnav-greenline2 {
+    left: 150px;
+	}
+	
+#topnav-greenline3 {
+    left: 300px;
+	}
+	
+#topnav-greenline4 {
+    left: 450px;
+	}
