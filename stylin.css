@@ -156,15 +156,7 @@ ul {
 	-webkit-padding-start: 0px;
 	}
 	
-.genderselection {
-	position: absolute;
-	left: 10px;
-	font-family: GillSans-Light;
-	font-size: 40px;
-	color: #d3d3d3;
-	text-align:center;
-	}
-	
+
 .side {
 	position: absolute;
 	left: 0px;
@@ -174,8 +166,6 @@ ul {
 .sidebtn1, .sidebtn2, .sidebtn3, .sidebtn4, .sidebtn5 {
 	float:left;
 	width: 190px;
-	line-height: 40px;
-	padding: 0 0 0 10px;
 	border-top: #00a99d 5px solid;
 	
 	font-family: GillSans-Light;
@@ -196,6 +186,10 @@ ul {
 .active {
 	height: 40px;
 	color: #FFFFFF;
+	float:left;
+	width: 180px;
+	line-height: 40px;
+	padding: 0 0 0 10px;
 
 	border-top: #abeb54 5px solid;
 	border-bottom: #abeb54 5px solid;
@@ -226,3 +220,56 @@ ul {
 .last-nav-item {
 	border-bottom: #00a99d 5px solid;
 	}
+	
+.last-nav-item-activeonly {
+	border-bottom: #abeb54 5px solid;
+	}
+	
+.navcategory {
+	display: block;
+	font-family: GillSans-Light;
+	font-size: 18px;
+	color: #abeb54;
+	background: #394746;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 10px;
+	}
+	
+.inactive .navcategory, .inactive-fakeline .navcategory {
+	background: transparent;
+	}
+	
+.active .navcategory {
+	background: transparent;
+	color: #FFFFFF;
+	}
+	
+
+	
+.navanswer {
+	display: block;
+	font-family: GillSans-Light;
+	font-size: 40px;
+	color: #d3d3d3;
+	text-align:center;
+	}
+	
+.navanswer-smaller {
+	font-size: 20px;
+	padding: 15px 10px 0 10px;
+	}
+		
+.navsuffix {
+	display: block;
+	font-family: GillSans-Light;
+	font-size: 20px;
+	color: #d3d3d3;
+	text-align:center;
+	}
+	
+	
+li {
+	overflow:hidden;
+	}
+	
